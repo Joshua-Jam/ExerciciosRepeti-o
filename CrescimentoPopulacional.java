@@ -32,7 +32,9 @@ public class CrescimentoPopulacional {
 
             int anos = calcularAnos(populacaoA, populacaoB, taxaCrescimentoA, taxaCrescimentoB);
 
-            System.out.println("Número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B: " + anos);
+            System.out.println(
+                    "Número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B: "
+                            + anos);
 
             System.out.print("Deseja repetir a operação? (S/N): ");
             continuar = scanner.next().charAt(0);

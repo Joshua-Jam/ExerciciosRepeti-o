@@ -35,7 +35,8 @@ public class ValidacaoInformacoes {
         do {
             System.out.print("Digite o estado civil (s, c, v ou d): ");
             estadoCivil = scanner.next().toLowerCase();
-        } while (!estadoCivil.equals("s") && !estadoCivil.equals("c") && !estadoCivil.equals("v") && !estadoCivil.equals("d"));
+        } while (!estadoCivil.equals("s") && !estadoCivil.equals("c") && !estadoCivil.equals("v")
+                && !estadoCivil.equals("d"));
 
         // Exibindo as informações validadas
         System.out.println("Nome: " + nome);

@@ -1,4 +1,4 @@
-public class CrescimentoPopulacional {
+public class CrescimentoPopulacional2 {
     public static void main(String[] args) {
         int populacaoA = 80000;
         int populacaoB = 200000;
@@ -12,6 +12,8 @@ public class CrescimentoPopulacional {
             anos++;
         }
 
-        System.out.println("Número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B: " + anos);
+        System.out.println(
+                "Número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B: "
+                        + anos);
     }
 }
